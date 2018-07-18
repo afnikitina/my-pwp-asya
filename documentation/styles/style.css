@@ -47,3 +47,7 @@ p {
 .wrap {
 	font-weight: bold;
 }
+
+.wrap2 {
+	text-decoration: underline;
+}
