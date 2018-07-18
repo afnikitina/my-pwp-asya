@@ -2,27 +2,48 @@
 *
 */
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+
 /***** General Styles *****/
 body {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: 'Open Sans',serif;
 }
 
-h1, h2, h3 {
-	font-family: Georgia, 'Times New Roman', serif;
+header {
+	background-color: mediumturquoise;
+	margin-bottom: 80px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-h1 {
+header div {
 	text-align: center;
-	font-size: 2.7em;
+	font-size: 1.2em;
+	font-style: italic;
 }
 
 footer {
 	font-size: .9em;
 }
 
+h1, h2, h3 {
+	font-family: 'Fira Sans', serif;
+}
+
+h1 {
+
+	font-size: 2.7em;
+	font-style: normal;
+}
+
+p {
+	font-size: 1.1em;
+}
 /***** Classes and IDs *****/
-#firstDiv {
-	text-align: center;
-	font-size: 1.2em;
-	font-style: italic;
+
+.wrap {
+	font-weight: bold;
 }
