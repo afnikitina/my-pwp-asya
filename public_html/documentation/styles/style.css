@@ -36,6 +36,9 @@ h1 {
 	font-style: normal;
 }
 
+.layout h3 {
+	color: #5e2039;
+}
 p {
 	font-size: 1.1em;
 }
@@ -48,4 +51,8 @@ p {
 
 .wrap2 {
 	text-decoration: underline;
+}
+
+img {
+	max-width: 400px;
 }
