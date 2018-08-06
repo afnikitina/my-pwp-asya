@@ -42,6 +42,10 @@ h1 {
 p {
 	font-size: 1.1em;
 }
+
+img {
+	max-width: 800px;
+}
 /***** Classes and IDs *****/
 
 .wrap {
@@ -51,8 +55,4 @@ p {
 
 .wrap2 {
 	text-decoration: underline;
-}
-
-img {
-	max-width: 400px;
 }
