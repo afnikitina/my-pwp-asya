@@ -28,7 +28,7 @@
 			</section>
 			<div class="layout">
 				<h2>Wireframes</h2>
-				<p>My site will feature one layout that will be fully responsive on small and large screens. These wireframes were created using <strong>https://balsamiq.com</strong></p>
+				<p>My site will feature one layout that will be fully responsive on small and large screens. These wireframes were created using <a href="https://balsamiq.com">https://balsamiq.com</a></p>
 				<h3>Mobile Layout</h3>
 				<img src="./images/mobile-layout1.png" alt="Wireframes Mobile Layout">
 				<h3>Desktop Layout</h3>

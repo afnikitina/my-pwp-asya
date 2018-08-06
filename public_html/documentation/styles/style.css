@@ -36,9 +36,6 @@ h1 {
 	font-style: normal;
 }
 
-.layout h3 {
-	color: #5e2039;
-}
 p {
 	font-size: 1.1em;
 }
@@ -46,7 +43,31 @@ p {
 img {
 	max-width: 800px;
 }
+
+a {
+	font-weight: bolder;
+}
+
+a:link {
+	color:  #6a1b9a;
+}
+
+/* visited link */
+a:visited {
+	color:  #1b5e20;
+}
+
+/* mouse over link */
+a:hover {
+	color:  #990033;
+}
+
 /***** Classes and IDs *****/
+
+.layout h3 {
+	color:  #7b213f;
+	font-size: 1.3em;
+}
 
 .wrap {
 	font-weight: bold;
