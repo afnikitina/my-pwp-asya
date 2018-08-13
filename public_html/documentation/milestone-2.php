@@ -3,7 +3,7 @@
 	<head>
 		<title>Personal Website Project - Content Strategy</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/style.css" />
 	</head>
 	<body>
 		<header>
@@ -30,9 +30,9 @@
 				<h2>Wireframes</h2>
 				<p>My site will feature one layout that will be fully responsive on small and large screens. These wireframes were created using <a href="https://balsamiq.com">https://balsamiq.com</a></p>
 				<h3>Mobile Layout</h3>
-				<img src="./images/mobile-layout1.png" alt="Wireframes Mobile Layout">
+				<img src="../images/mobile-layout1.png" alt="Wireframes Mobile Layout">
 				<h3>Desktop Layout</h3>
-				<img src="./images/desktop-layout1.png" alt="Wireframes Desktop Layout">
+				<img src="../images/desktop-layout1.png" alt="Wireframes Desktop Layout">
 			</div>
 		</main>
 		<footer>
