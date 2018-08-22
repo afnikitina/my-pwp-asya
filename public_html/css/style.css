@@ -3,7 +3,24 @@
 	font-weight: bolder;
 }
 
+label[class="control-label"] {
+	/*color: #1e623b;*/
+	font-weight: bolder;
+}
+
 i[class~="fa"] {
 	color: #1e623b;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+}
+
+button {
+	width: 7em;
+	margin-right: 1rem;
+	margin-top: 1rem;
+}
+
+.my-btn {
+	color: white;
+	/*font-weight: bolder;*/
+	font-size: 1.1rem;
 }
