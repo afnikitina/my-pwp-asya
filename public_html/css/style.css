@@ -1,0 +1,9 @@
+.red-star {
+	color: red;
+	font-weight: bolder;
+}
+
+i[class~="fa"] {
+	color: #1e623b;
+	font-size: 1.5rem;
+}

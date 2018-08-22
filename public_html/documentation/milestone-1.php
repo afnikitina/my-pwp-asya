@@ -3,7 +3,7 @@
 	<head>
 		<title>Asya Nikitina - Personal Website Project</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="../styles/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<header>
