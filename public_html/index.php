@@ -12,34 +12,31 @@
 	</head>
 	<body>
 		<div class="container">
-			<ul class="nav nav-inline">
-				<li class="nav-item"><a href="#" class="nav-link active">About Me</a></li>
-				<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-					<div class="dropdown-menu">data-toggle="dropdown"
-						<a href="#" class="dropdown-item">Project 1</a>
-						<a href="#" class="dropdown-item">Project 2</a>
-					</div>
-				</li>
-				<li class="nav-item"><a href="#" class="nav-link active">Contact Me</a></li>
-			</ul><!--nav nav-inline-->
-		</div><!--container-->
-		<div class="container">
-			<nav class="navbar navbar-light" style="background-color: #4dea54;">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<a class="navbar-brand" href="#">
 					<img src="images/this_is_me.png" width="60" height="60" alt="coffee maker">
 				</a>
-				<div class="nav navbar-nav">
-					<a class="nav-item nav-link" href="#">About Me</a>
-					<a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown">Portfolio</a>
-					<div class="dropdown-menu">data-toggle="dropdown"
-						<a href="#" class="dropdown-item">Project 1</a>
-						<a href="#" class="dropdown-item">Project 2</a>
-					</div>
-					<a class="nav-item nav-link" href="#">Contact Me</a>
-				</div><!--nav navbar-nav-->
-			</nav><!--navbar-->
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a href="#" class="nav-link active">About Me</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Project 1</a>
+								<a class="dropdown-item" href="#">Project 2</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item active">
+							<a href="#" class="nav-link active">Contact Me</a>
+						</li>
+					</ul><!--navbar-nav mr-auto-->
+				</div><!--collapse navbar-collapse-->
+			</nav><!--navbar navbar-expand-lg navbar-light bg-light-->
 		</div><!--		container-->
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
