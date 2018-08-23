@@ -150,7 +150,7 @@ class Visitor implements \JsonSerializable {
 		}
 		// verify that the message is not longer than 100 characters
 		if(strlen($newVisitorSubject) > 100) {
-			throw(new \RangeException("Name is too long."));
+			throw(new \RangeException("Subject is too long."));
 		}
 		// store the valid email address
 		$this->visitorName = $newVisitorSubject;
