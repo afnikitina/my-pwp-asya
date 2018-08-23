@@ -15,37 +15,29 @@
 			<ul class="nav nav-inline">
 				<li class="nav-item"><a href="#" class="nav-link active">About Me</a></li>
 				<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-					<div class="dropdown-menu">
+					<div class="dropdown-menu">data-toggle="dropdown"
 						<a href="#" class="dropdown-item">Project 1</a>
 						<a href="#" class="dropdown-item">Project 2</a>
 					</div>
 				</li>
 				<li class="nav-item"><a href="#" class="nav-link active">Contact Me</a></li>
-			</ul>
-		</div><!--		container-->
+			</ul><!--nav nav-inline-->
+		</div><!--container-->
 		<div class="container">
-			<nav class="navbar">
+			<nav class="navbar navbar-light" style="background-color: #4dea54;">
+				<a class="navbar-brand" href="#">
+					<img src="images/this_is_me.png" width="60" height="60" alt="coffee maker">
+				</a>
 				<div class="nav navbar-nav">
-
-				</div>
-
-
-
-			</nav>
-
-
-
-
-			<ul class="nav nav-inline">
-				<li class="nav-item"><a href="#" class="nav-link active">About Me</a></li>
-				<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-					<div class="dropdown-menu">
+					<a class="nav-item nav-link" href="#">About Me</a>
+					<a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown">Portfolio</a>
+					<div class="dropdown-menu">data-toggle="dropdown"
 						<a href="#" class="dropdown-item">Project 1</a>
 						<a href="#" class="dropdown-item">Project 2</a>
 					</div>
-				</li>
-				<li class="nav-item"><a href="#" class="nav-link active">Contact Me</a></li>
-			</ul>
+					<a class="nav-item nav-link" href="#">Contact Me</a>
+				</div><!--nav navbar-nav-->
+			</nav><!--navbar-->
 		</div><!--		container-->
 
 		<div class="container">
