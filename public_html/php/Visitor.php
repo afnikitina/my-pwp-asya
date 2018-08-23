@@ -107,7 +107,7 @@ class Visitor implements \JsonSerializable {
 	 * @throws \InvalidArgumentException if $newVisitorName is insecure
 	 * @throws \RangeException if $newVisitorName is > 92 characters
 	 **/
-	public function setVisitorMessage(string $newVisitorName): void {
+	public function setVisitorName(string $newVisitorName): void {
 		// verify that the message is secure and not empty
 		$newVisitorName = trim($newVisitorName);
 		$newVisitorName = filter_var($newVisitorName, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
@@ -153,7 +153,7 @@ class Visitor implements \JsonSerializable {
 			throw(new \RangeException("Subject is too long."));
 		}
 		// store the valid email address
-		$this->visitorName = $newVisitorSubject;
+		$this->visitorSubject = $newVisitorSubject;
 	}
 
 

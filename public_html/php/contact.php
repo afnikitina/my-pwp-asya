@@ -2,40 +2,37 @@
 
 use anikitina\MyPwpAsya\Visitor;
 
-// instantiate a current Visitor object to default state (all fields are empty strings
+// instantiate a current Visitor object to default state (all fields are empty strings)
 $currVisitor = new Visitor();
 
 // create an error JSON object (with all values being empty strings for now)
 $errJSON = [
 	'email' => "",
 	'message' => "",
-	'name' => "",
-	'subject' => ""
+	'name' => ""
 ];
-
 
 // make sure that a visitor is trying to submit valid data
 if (!empty($_POST)) {
-	if (isset($_POST['email'])) {
+	if(isset($_POST['email'])) {
 		$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-		if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+		if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			$currVisitor->setVisitorEmail($email);
 		} else {
 			$errJSON->email = "Email address is empty or insecure.";
 		}
 	}
 
-	if (isset($_POST['message']) {
+	if(isset($_POST['message'])) {
 		$message = filter_var($_POST['message'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-		if (!empty($message)) {
+		if(!empty($message)) {
 			$currVisitor->setVisitorMessage($message);
-		}
-		else {
+		} else {
 			$errJSON->message = "Message is empty or insecure.";
 		}
 	}
 
-	if (isset($_POST['name']) {
+	if(isset($_POST['name'])) {
 		$name = filter_var($_POST['name'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 		if(!empty($name)) {
 			$currVisitor->setVisitorName($name);
@@ -44,10 +41,26 @@ if (!empty($_POST)) {
 		}
 	}
 
-	if (isset($_POST['subject']) {
+	if(isset($_POST['subject'])) {
 		$subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 		if(!empty($subject)) {
 			$currVisitor->setVisitorSubject($subject);
 		}
 	}
+
+	function sendMeEmail(Visitor $aVisitor) {
+		$to      = "nobody@example.com";
+		$headers = array(
+		'From' => $aVisitor->getVisitorName() ."<" . $aVisitor->getVisitorEmail() .">",
+		'Reply-To' => $aVisitor->getVisitorEmail(),
+		'X-Mailer' => 'PHP/' . phpversion()
+		);
+
+		mail($to, $aVisitor->getVisitorSubject(), $aVisitor->getVisitorMessage(), $headers);
+	}
+
+	if (empty($errJSON->email) && empty($errJSON->message) && empty($errJSON->name)) {
+		sendMeEmail($currVisitor);
+	}
+}
 

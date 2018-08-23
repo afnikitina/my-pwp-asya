@@ -12,12 +12,13 @@
 	</head>
 	<body>
 		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
 				<a class="navbar-brand" href="#">
 					<img src="images/this_is_me.png" width="60" height="60" alt="coffee maker">
 				</a>
-				<div class="collapse navbar-collapse">
-					<ul class="navbar-nav mr-auto">
+				<button class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#colMenu"></button>
+				<div class="collapse navbar-collapse navbar-toggleable-sm" id="colMenu">
+					<ul class="nav navbar-nav mr-auto">
 						<li class="nav-item active">
 							<a href="#" class="nav-link active">About Me</a>
 						</li>
