@@ -7,37 +7,45 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto+Slab:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
-		<div class="container">
-			<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#">
-					<img src="images/this_is_me.png" width="60" height="60" alt="coffee maker">
-				</a>
-				<button class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#colMenu"></button>
-				<div class="collapse navbar-collapse navbar-toggleable-sm" id="colMenu">
-					<ul class="nav navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a href="#" class="nav-link active">About Me</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Project 1</a>
-								<a class="dropdown-item" href="#">Project 2</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Something else here</a>
-							</div>
-						</li>
-						<li class="nav-item active">
-							<a href="#" class="nav-link active">Contact Me</a>
-						</li>
-					</ul><!--navbar-nav mr-auto-->
-				</div><!--collapse navbar-collapse-->
-			</nav><!--navbar navbar-expand-lg navbar-light bg-light-->
-		</div><!--		container-->
+
+		<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><img src="images/this_is_me.png" width="60" height="60" alt="coffee maker"></a>
+				</div><!--navbar-header-->
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item">
+						<a href="#" class="nav-link">About Me</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Project 1</a>
+							<a class="dropdown-item" href="#">Project 2</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contact Me</a>
+					</li>
+				</ul><!--navbar-nav mr-auto-->
+			</div><!--		container-->
+		</nav><!--navbar navbar-expand-lg navbar-light bg-light-->
+
+
+		<header class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<div class="display-1 mb-4">Welcome!</div>
+
+			</div>
+		</header>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
