@@ -39,10 +39,68 @@
 		</nav><!--navbar navbar-expand-lg navbar-light bg-light-->
 		<header class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<div class="display-1 mb-4">Welcome!</div>
+				<div class="display-1 text-light mb-4">Welcome!</div>
 			</div>
 		</header>
 		<main>
+			<div class="container">
+				<div class="row justify-content-md-center mb-4">
+					<div class="col-md-12">
+						<div class="card p-3">
+							<div class="card-body">
+								<h3 class="card-title">About Me</h3>
+								<p class="card-text">Mauris vel faucibus nunc, id consectetur velit. Sed nec facilisis sapien, a facilisis dui. In pharetra egestas lobortis. Proin pellentesque diam quis maximus consectetur. Proin sit amet urna metus. Suspendisse potenti. Ut dictum sagittis tempor. Pellentesque luctus tristique vehicula. Sed lacinia luctus nisi ut malesuada. Integer commodo ipsum ut ultricies imperdiet. Suspendisse eget sapien dui. Phasellus hendrerit metus in eros bibendum hendrerit. Pellentesque ultrices est imperdiet eleifend accumsan. Vivamus a tempor nulla, sed interdum enim.</p>
+							</div><!--card-body-->
+						</div><!--card-->
+					</div><!--col-md-12-->
+				</div><!--row justify-content-md-center mb-4-->
+				<div class="row justify-content-md-center mb-4">
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-body p-3">
+								<h3 class="card-title">Education</h3>
+								<p class="card-text">Donec egestas ipsum a ex faucibus, vitae porttitor neque lacinia. Proin sit amet urna metus.</p>
+							</div><!--card-body-->
+						</div><!--card-->
+					</div><!--col-md-4-->
+					<div class="col-md-8">
+						<div class="card">
+							<div class="card-body p-3">
+								<h3 class="card-title">Skills</h3>
+								<p class="card-text">Ut sed elit eleifend, tincidunt lorem non, mattis quam. Etiam ut metus tempus, semper sem sed, posuere elit. Proin dapibus odio eu mauris sagittis vehicula sit amet nec ex. Nam ornare tincidunt condimentum.</p>
+							</div><!--card-body-->
+						</div><!--card-->
+					</div><!--col-md-8-->
+				</div><!--row justify-content-md-center mb-4-->
+				<div class="row justify-content-md-center mb-4">
+					<div class="col-md-12">
+						<div class="card p-3">
+							<div class="card-body">
+								<h3 class="card-title">Portfolio</h3>
+								<p class="card-text">Mauris vel faucibus nunc, id consectetur velit.</p>
+							</div><!--card-body-->
+						</div><!--card-->
+					</div><!--col-md-12-->
+				</div><!--row justify-content-md-center mb-4-->
+				<div class="row justify-content-md-center mb-4">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-body p-3">
+								<h3 class="card-title">Project 1</h3>
+								<p class="card-text">Donec egestas ipsum a ex faucibus, vitae porttitor neque lacinia. Proin sit amet urna metus. Etiam varius tempor massa non tincidunt. In ornare dictum nibh, ut varius felis porttitor non. Donec ac lectus.</p>
+							</div><!--card-body-->
+						</div><!--card-->
+					</div><!--col-md-6-->
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-body p-3">
+								<h3 class="card-title">Project 2</h3>
+								<p class="card-text">Ut sed elit eleifend, tincidunt lorem non, mattis quam. Etiam ut metus tempus, semper sem sed, posuere elit. Proin dapibus odio eu mauris sagittis vehicula sit amet nec ex. Nam ornare tincidunt condimentum.</p>
+							</div><!--card-body-->
+						</div><!--card-->
+					</div><!--col-md-6-->
+				</div><!--row justify-content-md-center mb-4-->
+			</div><!--container-->
 
 		<div class="container">
 			<div class="row justify-content-md-center">
@@ -106,7 +164,7 @@
 				<div class="row justify-content-md-center">
 					<div class="col-md-6">
 						<button type="button" class="btn btn-primary text-light my-3 mr-3 contact-btn"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
-						<button type="button" class="btn btn-warning text-light my-3 contact-btn" onclick="resetAll()"><i class="fas fa-undo"></i>&nbsp;&nbsp;Clear All</button>
+						<button type="button" class="btn btn-warning text-light my-3 contact-btn" onclick="resetAll()"><i class="fas fa-undo"></i>&nbsp;&nbsp;Reset</button>
 					</div><!--col-md-6-->
 				</div><!--row justify-content-md-center-->
 			</form>

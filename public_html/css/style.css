@@ -3,8 +3,7 @@ body {
 	/*padding-top: 50px;*/
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
-	font-size: 1.5rem;
-	position: relative;
+	/*font-size: 1.5rem;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
+	margin-bottom: 0;
 	border-radius: 0;
 	border: 0;
 }
@@ -21,10 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
 	background-image: url("../images/header1.jpg");
 	background-size: cover;
-	height: 45rem;
+	height: 100vh;
 	text-align: right;
-	color: white;
-	font-size: 30rem;
 }
 
 label[class="control-label"] {
