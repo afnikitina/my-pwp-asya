@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	margin: 0;
 }
@@ -27,29 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30rem;
 }
 
-.red-star {
-	color: red;
-	font-weight: bolder;
-}
-
 label[class="control-label"] {
 	/*color: #1e623b;*/
 	font-weight: bolder;
 }
 
-i[class~="fa"] {
-	color: #1e623b;
-	font-size: 1.2rem;
-}
-
-button {
-	width: 7em;
-	margin-right: 1rem;
-	margin-top: 1rem;
-}
-
-.my-btn {
-	color: white;
-	/*font-weight: bolder;*/
-	font-size: 1.1rem;
+.contact-btn {
+	width: 7.5em;
 }
