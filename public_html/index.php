@@ -175,6 +175,11 @@
 											</div><!--input-group mb-3-->
 										</div><!--col-md-6-->
 									</div><!--row justify-content-md-center mb-4-->
+									<div class="row justify-content-md-center mb-4">
+										<div class="col-md-6">
+											<!--reCAPTCHA goes here-->
+										</div><!--col-md-6-->
+									</div><!--row justify-content-md-center mb-4-->
 									<div class="row justify-content-md-center">
 										<div class="col-md-6">
 											<button type="button" class="btn btn-primary text-light my-3 mr-3 contact-btn"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
