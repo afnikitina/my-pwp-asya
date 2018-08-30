@@ -10,6 +10,25 @@
 		<!--		<link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans" rel="stylesheet">-->
 		<link href="https://fonts.googleapis.com/css?family=Acme|Handlee|Open+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+		<!-- jQuery Form, Validate, Additional Methods -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!-- form validate js -->
+		<script src="js/jquery-validate.js" type="application/javascript"></script>
 	</head>
 	<body>
 
@@ -167,8 +186,8 @@
 											<div class="g-recaptcha" data-sitekey="6Lekam0UAAAAAHZRc3RfTjQIa0XtezD-UUzyBegy"></div>
 										</div><!--form-group-->
 										<div class="form-group">
-											<button type="button" class="btn btn-primary text-light contact-btn mr-3"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
-											<button type="button" class="btn btn-warning text-light contact-btn" onclick="resetAll()"><i class="fas fa-undo"></i>&nbsp;&nbsp;Reset</button>
+											<button type="submit" class="btn btn-primary text-light contact-btn mr-3"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
+											<button type="reset" class="btn btn-warning text-light contact-btn"><i class="fas fa-undo"></i>&nbsp;&nbsp;Reset</button>
 										</div><!--form-group-->
 									</div><!--	col-md-6-->
 								</div><!--row justify-content-md-center mb-4-->
@@ -185,24 +204,5 @@
 			</div>
 		</footer>
 
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-
-		<!-- jQuery Form, Validate, Additional Methods -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
-
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-		<!-- form validate js -->
-
-
-		<!-- custom js -->
-		<script src="js/jquery-validate.js" type="application/javascript"></script>
 	</body>
 </html>
