@@ -10,7 +10,6 @@
 		<!--		<link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans" rel="stylesheet">-->
 		<link href="https://fonts.googleapis.com/css?family=Acme|Handlee|Open+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 
@@ -176,6 +175,7 @@
 							</div><!--container-->
 						</div><!--card-body-->
 					</form>
+					<div id="output-area"></div>
 				</div><!--card shadow rounded contact-card	-->
 			</div><!--container-->
 		</main>
@@ -203,6 +203,6 @@
 
 
 		<!-- custom js -->
-		<script src="js/script.js" type="application/javascript"></script>
+		<script src="js/jquery-validate.js" type="application/javascript"></script>
 	</body>
 </html>
