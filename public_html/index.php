@@ -39,36 +39,33 @@
 				</div><!--navbar-header-->
 				<ul class="nav navbar-nav navbar-right">
 					<li class="nav-item">
-						<a href="#" class="nav-link">About Me</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Project 1</a>
-							<a class="dropdown-item" href="#">Project 2</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
+						<a href="#about-me" class="nav-link">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Contact Me</a>
+						<a href="#portfolio" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact-me" class="nav-link">Contact Me</a>
 					</li>
 				</ul><!--navbar-nav mr-auto-->
 			</div><!--		container-->
 		</nav><!--navbar navbar-expand-lg navbar-light bg-light-->
 		<header class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<div class="display-1 text-light pt-5 mb-4">Welcome!</div>
-				<p class="float-right pt-5">
+				<div class="display-1 text-md-right text-light p-5 my-5">Welcome!</div>
+				<div class="text-md-right pb-5 mb-5">
 					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span>
 					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin"></i></a></span>
 					<span><a class="bootstrap-link my-jumbotron" href="#"><i class="fas fa-envelope"></i></a></span>
-				</p>
-			</div>
+				</div>
+				<div class="row justify-content-end pt-5 mt-5">
+					<img class="img-fluid rounded-circle float-md-right" src="images/asya.jpg" alt="asya">
+				</div>
+			</div><!--container-->
 		</header>
 		<main>
 			<!--About Me Section -->
-			<section class="container">
+			<section id="about-me" class="container">
 				<div class="row justify-content-md-center mb-4">
 					<div class="col-md-12">
 						<div class="card shadow rounded">
@@ -99,7 +96,7 @@
 				</div><!--row justify-content-md-center mb-4-->
 			</section><!--container-->
 			<!--Portfolio Section-->
-			<section class="container">
+			<section id="portfolio" class="container">
 				<div class="row justify-content-md-center mb-4">
 					<div class="col-md-12">
 						<div class="card shadow rounded">
@@ -112,7 +109,7 @@
 				</div><!--row justify-content-md-center mb-4-->
 				<div class="row justify-content-md-center mb-4">
 					<div class="col-md-6">
-						<div class="card shadow rounded">
+						<div id="project1" class="card shadow rounded">
 							<img class="card-img-top img-fluid" src="images/project1.jpg" alt="project1">
 							<div class="card-body p-3">
 								<h3 class="card-title text-center">Project 1</h3>
@@ -123,7 +120,7 @@
 						</div><!--card-->
 					</div><!--col-md-6-->
 					<div class="col-md-6">
-						<div class="card shadow rounded">
+						<div id="project2" class="card shadow rounded">
 							<img class="card-img-top img-fluid" src="images/project2.jpg" alt="project2">
 							<div class="card-body p-3">
 								<h3 class="card-title text-center">Project 2</h3>
@@ -137,7 +134,7 @@
 			</section><!--container-->
 
 			<!--Contact Me Form-->
-			<div class="container">
+			<div id="contact-me" class="container">
 				<div class="card shadow rounded contact-card">
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="card-body">

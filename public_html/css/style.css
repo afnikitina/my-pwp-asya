@@ -30,13 +30,19 @@ main {
 	text-align: right;
 }
 
+header .rounded-circle {
+	height: 30vh;
+	width: 30vh;
+
+}
+
 .card-body {
 	background-color:  #effffd;
 }
 
 .card-img-top {
 	width: 100%;
-	height: 15vw;
+	height: 20vw;
 	object-fit: cover;
 }
 
