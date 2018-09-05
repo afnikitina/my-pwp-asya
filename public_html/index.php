@@ -61,7 +61,7 @@
 				<div class="display-1 text-light pt-5 mb-4">Welcome!</div>
 				<p class="float-right pt-5">
 					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span>
-					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://github.com/afnikitina"><i class="fab fa-linkedin"></i></a></span>
+					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin"></i></a></span>
 					<span><a class="bootstrap-link my-jumbotron" href="#"><i class="fas fa-envelope"></i></a></span>
 				</p>
 			</div>
@@ -200,7 +200,7 @@
 		</main>
 		<footer class="footer text-white-50 bg-dark py-2">
 			<div class="container text-center">
-				Connect with me on LinkedIn.&nbsp;&nbsp;<a class="bootstrap-link my-footer" href="https://github.com/afnikitina"><i class="fab fa-linkedin"></i></a>
+				Connect with me on LinkedIn.&nbsp;&nbsp;<a class="bootstrap-link my-footer" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin"></i></a>
 			</div>
 		</footer>
 
