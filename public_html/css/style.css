@@ -33,14 +33,12 @@ header .rounded-circle {
 .jumbotron {
 	background-image: url("../images/header1.jpg");
 	background-size: cover;
-	/*font-family: 'Handlee', cursive;*/
 	font-family: 'Acme', sans-serif;
 	height: 100vh;
 	text-align: right;
 }
 
 .my-jumbotron {
-	color: white;
 	font-size: 2rem;
 }
 

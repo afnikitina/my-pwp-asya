@@ -53,9 +53,9 @@
 			<div class="container">
 				<div class="display-1 text-md-right text-light p-5 my-5">Welcome!</div>
 				<div class="text-md-right pb-5 mb-5">
-					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span>
-					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin"></i></a></span>
-					<span><a class="bootstrap-link my-jumbotron" href="#"><i class="fas fa-envelope"></i></a></span>
+					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://github.com/afnikitina"><i class="fab fa-github-square text-light"></i></a></span>
+					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin text-light"></i></a></span>
+					<span><a class="bootstrap-link my-jumbotron" href="#contact-me"><i class="fas fa-envelope text-light"></i></a></span>
 				</div>
 				<div class="row justify-content-end pt-5 mt-5">
 					<img class="img-fluid rounded-circle float-md-right" src="images/asya.jpg" alt="asya">
