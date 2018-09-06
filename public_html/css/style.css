@@ -1,7 +1,13 @@
+/*** Set general rules for basic elements ***/
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	/*font-size: 1.5rem;*/
+}
+
+main {
+	padding-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,8 +22,12 @@ h1, h2, h3, h4, h5, h6 {
 	border: 0;
 }
 
-main {
-	padding-bottom: 1rem;
+/*** Set rules for the header ***/
+
+header .rounded-circle {
+	height: 30vh;
+	width: 30vh;
+
 }
 
 .jumbotron {
@@ -29,11 +39,12 @@ main {
 	text-align: right;
 }
 
-header .rounded-circle {
-	height: 30vh;
-	width: 30vh;
-
+.my-jumbotron {
+	color: white;
+	font-size: 2rem;
 }
+
+/*** Set rules for cards ***/
 
 .card-body {
 	background-color:  #effffd;
@@ -45,19 +56,18 @@ header .rounded-circle {
 	object-fit: cover;
 }
 
+/*** Set rules for buttons and links ***/
+
 .bootstrap-link {
 	color: black;
-	font-size: 2rem;
-}
-
-.my-jumbotron {
-	color: white;
 	font-size: 2rem;
 }
 
 .contact-btn {
 	width: 7.0rem;
 }
+
+/*** Set rules for the footer ***/
 
 .my-footer {
 	color: white;

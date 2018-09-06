@@ -70,7 +70,7 @@
 						<div class="card shadow rounded">
 							<div class="card-body">
 								<h3 class="card-title">About Me</h3>
-								<p class="card-text">Hello, my name is Asya Nikitina. I am a former chemical scientist who fell in love with coding and software development and decided to change her life and career drastically and without looking back. I still love solving challenging problems, but this time instead of synthesizing new compounds and studying highly reactive organic molecules, I write computer programs and create awesome websites.</p>
+								<p class="card-text text-justify">Hello, my name is Asya Nikitina. I am a former chemical scientist who fell in love with coding and software development and decided to change her life and career drastically and without looking back. I still love solving challenging problems, but this time instead of synthesizing new compounds and studying highly reactive organic molecules, I write computer programs and create awesome websites.</p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-12-->
@@ -80,7 +80,7 @@
 						<div class="card h-100 shadow rounded">
 							<div class="card-body p-3">
 								<h3 class="card-title">Education</h3>
-								<p class="card-text">I earned a master’s degree in computer science at <a href="https://www.unr.edu/cse" class="card-link text-info">the University of Nevada Reno</a> and currently I am finishing<a href="https://deepdivecoding.com/fullstack/" class="card-link text-dark">the deep dive full stack web development coding bootcamp</a> at<a href="https://www.cnm.edu/" class="card-link text-info">the Central New Mexico Community College</a>, Albuquerque, NM.</p>
+								<p class="card-text text-justify">I earned a master’s degree in computer science at <a href="https://www.unr.edu/cse" class="card-link text-info">the University of Nevada Reno</a> and currently I am finishing<a href="https://deepdivecoding.com/fullstack/" class="card-link text-dark">the deep dive full stack web development coding bootcamp</a> at<a href="https://www.cnm.edu/" class="card-link text-info">the Central New Mexico Community College</a>, Albuquerque, NM.</p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-4-->
@@ -112,7 +112,7 @@
 				</div><!--row justify-content-md-center mb-4-->
 				<div class="row justify-content-md-center mb-4">
 					<div class="col-md-6">
-						<div id="project1" class="card shadow rounded">
+						<div class="card h-100 shadow rounded">
 							<img class="card-img-top img-fluid" src="images/project1.jpg" alt="project1">
 							<div class="card-body p-3">
 								<h3 class="card-title text-center text-danger mt-3">Pattern Recognition Algorithms</h3>
@@ -122,13 +122,13 @@
 						</div><!--card-->
 					</div><!--col-md-6-->
 					<div class="col-md-6">
-						<div id="project2" class="card shadow rounded">
-							<img class="card-img-top img-fluid" src="images/project2.jpg" alt="project2">
+						<div class="card h-100 shadow rounded">
+							<img class="card-img-top img-fluid" src="images/puppy.jpg" alt="project2">
 							<div class="card-body p-3">
 								<h3 class="card-title text-center text-danger mt-3">Lost Paws</h3>
 								<h5 class="card-subtitle mt-3 text-center text-success">Helping Reunite Lost Pets with Their Owners</h5>
-								<p class="card-text">Brief description of Project 2.</p>
-								<a href="https://www.cnm.edu/" class="card-link text-info">Go to Project 2</a>
+								<p class="card-text text-justify mt-3">I am a part of a team of four web developers who have been working on this project. We are using Angular 6 for the front-end implementation and PHP 7 for implementing the server-side functionality of our application. This application has many useful features allowing people to report their lost pets, post information about found animals, search our database of lost and found animals using various options, exchange comments with other website visitors about lost, found, and recently seen pets, and more importantly, it helps reunite lost pets with their owners.</p>
+								<a href="https://github.com/jisbell347/lost-paws" class="card-link text-info">Here is our project on GitHub</a>
 							</div><!--card-body p-3-->
 						</div><!--card-->
 					</div><!--col-md-6-->
@@ -202,6 +202,5 @@
 				Connect with me on LinkedIn.&nbsp;&nbsp;<a class="bootstrap-link my-footer" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin"></i></a>
 			</div>
 		</footer>
-
 	</body>
 </html>
