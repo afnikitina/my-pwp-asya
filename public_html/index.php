@@ -80,7 +80,8 @@
 						<div class="card h-100 shadow rounded">
 							<div class="card-body p-3">
 								<h3 class="card-title">Education</h3>
-								<p class="card-text">I earned a master’s degree in computer science at the University of Nevada Reno and currently I am finishing the deep dive full stack web development coding bootcamp at Central New Mexico Community College, Albuquerque, NM.</p>
+								<p class="card-text">I earned a master’s degree in computer science at <a href="https://www.unr.edu/cse" class="card-link">the University of Nevada Reno</a> and currently I am finishing <a href="https://www.unr.edu/cse" class="card-link">the deep dive full stack web development coding bootcamp</a>
+									 at Central New Mexico Community College, Albuquerque, NM.</p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-4-->
