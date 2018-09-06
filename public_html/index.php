@@ -80,8 +80,7 @@
 						<div class="card h-100 shadow rounded">
 							<div class="card-body p-3">
 								<h3 class="card-title">Education</h3>
-								<p class="card-text">I earned a master’s degree in computer science at <a href="https://www.unr.edu/cse" class="card-link">the University of Nevada Reno</a> and currently I am finishing <a href="https://www.unr.edu/cse" class="card-link">the deep dive full stack web development coding bootcamp</a>
-									 at Central New Mexico Community College, Albuquerque, NM.</p>
+								<p class="card-text">I earned a master’s degree in computer science at <a href="https://www.unr.edu/cse" class="card-link text-info">the University of Nevada Reno</a> and currently I am finishing<a href="https://deepdivecoding.com/fullstack/" class="card-link text-dark">the deep dive full stack web development coding bootcamp</a> at<a href="https://www.cnm.edu/" class="card-link text-info">the Central New Mexico Community College</a>, Albuquerque, NM.</p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-4-->
@@ -106,7 +105,7 @@
 						<div class="card shadow rounded">
 							<div class="card-body">
 								<h3 class="card-title">Portfolio</h3>
-								<p class="card-text">These are some of my web development projects. See my code on GitHub.<span class="float-right"><a class="bootstrap-link" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span></p>
+								<p class="card-text">These are two of my software development projects. See my recent code on GitHub.<span class="float-right"><a class="bootstrap-link" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span></p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-12-->
