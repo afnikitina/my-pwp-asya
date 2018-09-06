@@ -18,7 +18,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
 		<!-- jQuery Form, Validate, Additional Methods -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
@@ -71,7 +70,7 @@
 						<div class="card shadow rounded">
 							<div class="card-body">
 								<h3 class="card-title">About Me</h3>
-								<p class="card-text">Mauris vel faucibus nunc, id consectetur velit. Sed nec facilisis sapien, a facilisis dui. In pharetra egestas lobortis. Proin pellentesque diam quis maximus consectetur. Proin sit amet urna metus. Suspendisse potenti. Ut dictum sagittis tempor. Pellentesque luctus tristique vehicula. Sed lacinia luctus nisi ut malesuada. Integer commodo ipsum ut ultricies imperdiet. Suspendisse eget sapien dui. Phasellus hendrerit metus in eros bibendum hendrerit. Pellentesque ultrices est imperdiet eleifend accumsan. Vivamus a tempor nulla, sed interdum enim.</p>
+								<p class="card-text">Hello, my name is Asya Nikitina. I am a former chemical scientist who fell in love with coding and software development and decided to change her life and career drastically and without looking back. I still love solving challenging problems, but this time instead of synthesizing new compounds and studying highly reactive organic molecules, I write computer programs and create awesome websites.</p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-12-->
