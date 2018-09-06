@@ -105,7 +105,7 @@
 						<div class="card shadow rounded">
 							<div class="card-body">
 								<h3 class="card-title">Portfolio</h3>
-								<p class="card-text">These are two of my software development projects. See my recent code on GitHub.<span class="float-right"><a class="bootstrap-link" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span></p>
+								<p class="card-text">These are two of my software development projects. See my most recent code on GitHub.<span class="float-right"><a class="bootstrap-link" href="https://github.com/afnikitina"><i class="fab fa-github-square"></i></a></span></p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-12-->
@@ -115,10 +115,9 @@
 						<div id="project1" class="card shadow rounded">
 							<img class="card-img-top img-fluid" src="images/project1.jpg" alt="project1">
 							<div class="card-body p-3">
-								<h3 class="card-title text-center">Project 1</h3>
-								<h5 class="card-subtitle">Subtitle for Project 1</h5>
-								<p class="card-text">Brief description of Project 1.</p>
-								<a href="#">Go to Project 1</a>
+								<h3 class="card-title text-center text-danger mt-3">Pattern Recognition Algorithms</h3>
+								<h5 class="card-subtitle mt-3 text-center text-success">Design and Implementation of Pattern Recognition Algorithms for the Detection of Chemicals in the Air</h5>
+								<p class="card-text text-justify mt-3">I collected real-life sensory data, established the strategy and procedure for feature selection, designed and implemented in C++ five different pattern recognition algorithms, and tested all my implementations using benchmark data sets and the collected experimental data. Four out of five algorithms, after being trained on the limited set of labeled data, were capable of performing recognition of unseen before samples with high classification accuracy.</p>
 							</div><!--card-body p-3-->
 						</div><!--card-->
 					</div><!--col-md-6-->
@@ -126,10 +125,10 @@
 						<div id="project2" class="card shadow rounded">
 							<img class="card-img-top img-fluid" src="images/project2.jpg" alt="project2">
 							<div class="card-body p-3">
-								<h3 class="card-title text-center">Project 2</h3>
-								<h5 class="card-subtitle">Subtitle for Project 2</h5>
+								<h3 class="card-title text-center text-danger mt-3">Lost Paws</h3>
+								<h5 class="card-subtitle mt-3 text-center text-success">Helping Reunite Lost Pets with Their Owners</h5>
 								<p class="card-text">Brief description of Project 2.</p>
-								<a href="#">Go to Project 2</a>
+								<a href="https://www.cnm.edu/" class="card-link text-info">Go to Project 2</a>
 							</div><!--card-body p-3-->
 						</div><!--card-->
 					</div><!--col-md-6-->
