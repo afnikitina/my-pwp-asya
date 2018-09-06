@@ -128,7 +128,7 @@
 								<h3 class="card-title text-center text-danger mt-3">Lost Paws</h3>
 								<h5 class="card-subtitle mt-3 text-center text-success">Helping Reunite Lost Pets with Their Owners</h5>
 								<p class="card-text text-justify mt-3">I am a part of a team of four web developers who have been working on this project. We are using Angular 6 for the front-end implementation and PHP 7 for implementing the server-side functionality of our application. This application has many useful features allowing people to report their lost pets, post information about found animals, search our database of lost and found animals using various options, exchange comments with other website visitors about lost, found, and recently seen pets, and more importantly, it helps reunite lost pets with their owners.</p>
-								<a href="https://github.com/jisbell347/lost-paws" class="card-link text-info">Here is our project on GitHub</a>
+								<p>Here is our project on GitHub&nbsp;&nbsp;<a class="bootstrap-link" href="https://github.com/jisbell347/lost-paws"><i class="fab fa-github-square"></i></a></p>
 							</div><!--card-body p-3-->
 						</div><!--card-->
 					</div><!--col-md-6-->
