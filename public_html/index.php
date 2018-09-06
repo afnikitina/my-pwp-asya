@@ -94,7 +94,7 @@
 								<p class="card-text"><span class="text-success">Subversion and Virtualization:</span> Git, VMWare</p>
 								<p class="card-text"><span class="text-success">Functional Skills:</span> Object-oriented programming, functional programming, machine learning, pattern recognition, clustering, software development lifecycle, UML, test-driven development</p>
 							</div><!--card-body-->
-						</div><!Web Development--card-->
+						</div><!--card h-100 shadow rounded-->
 					</div><!--col-md-8-->
 				</div><!--row justify-content-md-center mb-4-->
 			</section><!--container-->
@@ -150,7 +150,7 @@
 												<div class="input-group-prepend">
 													<span class="input-group-text"><i class="fas fa-user text-primary"></i></span>
 												</div><!--input-group-prepend-->
-												<input type="text" class="form-control" id="name" name="name" placeholder="Please enter your first and last name."required />
+												<input type="text" class="form-control" id="name" name="name" placeholder="Please enter your first and last name." required />
 											</div><!--input-group-->
 										</div><!--form-group-->
 										<div class="form-group">
