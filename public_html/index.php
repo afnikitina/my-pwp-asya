@@ -77,20 +77,24 @@
 				</div><!--row justify-content-md-center mb-4-->
 				<div class="row justify-content-md-center mb-4">
 					<div class="col-md-4">
-						<div class="card shadow rounded">
+						<div class="card h-100 shadow rounded">
 							<div class="card-body p-3">
 								<h3 class="card-title">Education</h3>
-								<p class="card-text">Donec egestas ipsum a ex faucibus, vitae porttitor neque lacinia. Proin sit amet urna metus.</p>
+								<p class="card-text">I earned a master’s degree in computer science at the University of Nevada Reno and currently I am finishing the deep dive full stack web development coding bootcamp at Central New Mexico Community College, Albuquerque, NM.</p>
 							</div><!--card-body-->
 						</div><!--card-->
 					</div><!--col-md-4-->
 					<div class="col-md-8">
-						<div class="card shadow rounded">
+						<div class="card h-100 shadow rounded">
 							<div class="card-body p-3">
-								<h3 class="card-title">Skills</h3>
-								<p class="card-text">Ut sed elit eleifend, tincidunt lorem non, mattis quam. Etiam ut metus tempus, semper sem sed, posuere elit. Proin dapibus odio eu mauris sagittis vehicula sit amet nec ex. Nam ornare tincidunt condimentum.</p>
+								<h3 class="card-title">Technical Skills</h3>
+								<p class="card-text"><span class="text-success">Programming Languages:</span> JavaScript, PHP, Perl, C++, C++/CLI.NET, C#.NET</p>
+								<p class="card-text"><span class="text-success">Web Development:</span> HTML, CSS, JavaScript, Angular, Bootstrap, PHP</p>
+								<p class="card-text"><span class="text-success">Databases:</span> MySQL, MariaDB, Oracle</p>
+								<p class="card-text"><span class="text-success">Subversion and Virtualization:</span> Git, VMWare</p>
+								<p class="card-text"><span class="text-success">Functional Skills:</span> Object-oriented programming, functional programming, machine learning, pattern recognition, clustering, software development lifecycle, UML, test-driven development</p>
 							</div><!--card-body-->
-						</div><!--card-->
+						</div><!Web Development--card-->
 					</div><!--col-md-8-->
 				</div><!--row justify-content-md-center mb-4-->
 			</section><!--container-->
