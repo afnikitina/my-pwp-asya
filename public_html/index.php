@@ -53,8 +53,9 @@
 			<div class="container">
 				<div class="display-1 text-md-right text-light p-5 my-5">Welcome!</div>
 				<div class="text-md-right pb-5 mb-5">
+					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="files/Asya-Nikitina-Resume.pdf"><i class="fas fa-file-alt text-light"></i></a></span>
 					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://github.com/afnikitina"><i class="fab fa-github-square text-light"></i></a></span>
-					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://www.linkedin.com/in/asya-nikitina-aa083216a/"><i class="fab fa-linkedin text-light"></i></a></span>
+					<span class="mr-3"><a class="bootstrap-link my-jumbotron" href="https://www.linkedin.com/in/asya-nikitina/"><i class="fab fa-linkedin text-light"></i></a></span>
 					<span><a class="bootstrap-link my-jumbotron" href="#contact-me"><i class="fas fa-envelope text-light"></i></a></span>
 				</div>
 				<div class="row justify-content-end pt-5 mt-5">
@@ -128,7 +129,7 @@
 								<h3 class="card-title text-center text-danger mt-3">Lost Paws</h3>
 								<h5 class="card-subtitle mt-3 text-center text-success">Helping Reunite Lost Pets with Their Owners</h5>
 								<p class="card-text text-justify mt-3">I am a part of a team of four web developers who have been working on this project. We are using Angular 6 for the front-end implementation and PHP 7 for implementing the server-side functionality of our application. This application has many useful features allowing people to report their lost pets, post information about found animals, search our database of lost and found animals using various options, exchange comments with other website visitors about lost, found, and recently seen pets, and more importantly, it helps reunite lost pets with their owners.</p>
-								<p>Here is our project on GitHub&nbsp;&nbsp;<a class="bootstrap-link" href="https://github.com/jisbell347/lost-paws"><i class="fab fa-github-square"></i></a></p>
+								<p>Here is our project on GitHub&nbsp;&nbsp;<a class="bootstrap-link" href="https://github.com/jisbell347/lost-paws"><i class="fab fa-github-square"></i></a> and live online&nbsp;&nbsp;<a class="bootstrap-link" href="https://bootcamp-coders.cnm.edu/~jisbell1/lost-paws/public_html/"><i class="fas fa-desktop"></i> <i class="fas fa-mobile-alt"></i></a></p>
 							</div><!--card-body p-3-->
 						</div><!--card-->
 					</div><!--col-md-6-->
